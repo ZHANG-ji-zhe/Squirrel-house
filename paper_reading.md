@@ -27,11 +27,14 @@ loss表明：由于$w(t)$的影响，最初的$\mathcal{L}_{NCE}$其主要作用
 >DynACL++ ：DynACL只处理了预训练任务，而DynACL++ 提出了后处理阶段改善对下游任务的性能。具体做法：利用k-means聚类产生伪标签，训练一个linear head，再利用伪标签对抗微调。
 
 ***
->实验：
-![enter description here](./images/1677724044132.png)
+>**实验：**
+![enter description here](./images/1677724044132.png)  
 该表表明模型可以增强鲁棒性
 ![enter description here](./images/1677724017731.png)
 该图表明训练时间过长时，DynACL和DynACL++ 不会导致鲁棒性的过拟合。
+
+
+> # A message passing perspective on learning dynamics of contrastive learning
 
 
 
